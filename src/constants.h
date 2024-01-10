@@ -35,6 +35,8 @@ namespace regnault {
 	const double REGNAULT_CONST = BOLTZMANN_CONST * AVOGADRO_CONST; /*J/molK*/
 	/// The Newton constant, in Newton metre square per kilogram squared.
 	const double NEWTON_CONST = 6.674E-11; /*Nm^2/kg^2*/
-
+	/// The gravitational acceleration at the surface of the Earth,
+	/// on 45 degrees latitude, at sea level, in meters per second squared.
+	const double SGRAVACCEL = 9.80665; 
 	}
 }
