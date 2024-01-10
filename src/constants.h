@@ -38,5 +38,12 @@ namespace regnault {
 	/// The gravitational acceleration at the surface of the Earth,
 	/// on 45 degrees latitude, at sea level, in meters per second squared.
 	const double SGRAVACCEL = 9.80665; 
+	
+	const double COULOMB_CONST = 8.9875517923E9; /*N*m^2/C^2*/
+	const double ELECTRIC_PERMITTIVITY = 8.8541878128E-12; /*F/m*/
+	const double ELECTRIC_PERMEABILITY = 1.25663706212E-6; /*N/A^2*/
+	const double VACUUM_IMPEDANCE = 376.730313668; /*Ohm*/
+	const double VACUUM_PERMEABILITY = 1.25663706212E-6; /*H/m*/
+	const double VACUUM_PERMITTIVITY = 8.8541878128E-12; /*F/m*/
 	}
 }
