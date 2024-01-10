@@ -39,11 +39,18 @@ namespace regnault {
 	/// on 45 degrees latitude, at sea level, in meters per second squared.
 	const double SGRAVACCEL = 9.80665; 
 	
+	/// The Coulomb constant, in Newton meter squared per Coulomb squared.
 	const double COULOMB_CONST = 8.9875517923E9; /*N*m^2/C^2*/
+	/// The electric permitivity of vacuum, in Farads per meter.
 	const double ELECTRIC_PERMITTIVITY = 8.8541878128E-12; /*F/m*/
+	/// The electric permeability of vacuum, in Henrys per meter.
 	const double ELECTRIC_PERMEABILITY = 1.25663706212E-6; /*N/A^2*/
+	
+	/// The impedance of vacuum, in Ohms. 
 	const double VACUUM_IMPEDANCE = 376.730313668; /*Ohm*/
+	/// The magnetic permeability of vacuum, in Henrys per meter.
 	const double VACUUM_PERMEABILITY = 1.25663706212E-6; /*H/m*/
+	/// The magnetic permitivity of vacuum, in Farads per meter.
 	const double VACUUM_PERMITTIVITY = 8.8541878128E-12; /*F/m*/
 	}
 }
