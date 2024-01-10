@@ -30,5 +30,11 @@ namespace regnault {
 	const double CANDELA_CONST = 683; /*lm/W*/
 
 	// end of SI base constants region
+
+	/// The Regnault constant, in joules per moles Kelvin
+	const double REGNAULT_CONST = BOLTZMANN_CONST * AVOGADRO_CONST; /*J/molK*/
+	/// The Newton constant, in Newton metre square per kilogram squared.
+	const double NEWTON_CONST = 6.674E-11; /*Nm^2/kg^2*/
+
 	}
 }
